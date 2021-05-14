@@ -1,9 +1,9 @@
 CREATE TABLE `countries` (
     `id` int(11) UNSIGNED NOT NULL auto_increment,
-    `code` smallint(6) default NULL,
-    `iso2` char(2) default NULL,
-    `iso3` char(3) default NULL,
-    `name` varchar(128) default NULL,
+    `code` smallint(6) NOT NULL,
+    `iso2` char(2) NOT NULL,
+    `iso3` char(3) NOT NULL,
+    `name` varchar(128) NOT NULL,
     PRIMARY KEY (`id`)
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8 AUTO_INCREMENT = 0;
 
